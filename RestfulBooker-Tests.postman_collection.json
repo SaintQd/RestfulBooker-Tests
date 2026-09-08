@@ -2038,7 +2038,7 @@
               "script": {
                 "type": "text/javascript",
                 "exec": [
-                  "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n    const responseData = pm.response.json();\r\n    pm.expect(responseData).to.have.property('firstname');\r\n});"
+                  "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n    const responseData = pm.response.json();\r\n    pm.expect(responseData).to.have.property('booking');\r\n});"
                 ]
               }
             }
@@ -2078,7 +2078,7 @@
               "script": {
                 "type": "text/javascript",
                 "exec": [
-                  "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n    const jsonData = xml2Json(pm.response.text());\r\n    const myElementValue = jsonData[\"booking\"][\"firstname\"];\r\n    if (myElementValue == undefined) {\r\n        throw new Error(\"Missing required property\");\r\n    }\r\n});"
+                  "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n    const jsonData = xml2Json(pm.response.text());\r\n    const myElementValue = jsonData[\"created-booking\"][\"booking\"][\"firstname\"];\r\n    if (myElementValue == undefined) {\r\n        throw new Error(\"Missing required property\");\r\n    }\r\n});"
                 ]
               }
             }
@@ -2213,7 +2213,7 @@
               "script": {
                 "type": "text/javascript",
                 "exec": [
-                  "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n    const responseData = pm.response.json();\r\n    pm.expect(responseData).to.have.property('firstname');\r\n});"
+                  "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n    const responseData = pm.response.json();\r\n    pm.expect(responseData).to.have.property('booking');\r\n});"
                 ]
               }
             }
