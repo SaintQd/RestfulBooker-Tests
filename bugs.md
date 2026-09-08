@@ -1,6 +1,6 @@
 # Баг-репорты — Restful Booker API
 
-**Стенд:** https://restful-booker.herokuapp.com\
+**Стенд:** https://restful-booker.herokuapp.com \
 **Окружение:** `Postman 12.26.5`, ОС `Windows 10`\
 **Дата последней верификации:** 08.09.2026
 
