@@ -9,7 +9,7 @@
 <a name="auth-1-bug"></a>
 ## AUTH-1-BUG — Авторизация с верными данными не проходит
 
-**Эндпоинт:** `POST auth`
+**Эндпоинт:** `POST /auth`\
 **Связанные тест-кейсы:** `AUTH-1`
 
 ### Описание
@@ -33,7 +33,7 @@
 <a name="booking-6-bug"></a>
 ## BOOKING-6-BUG — Ответ `500 Internal Server Error` при невалидном формате даты в query-параметре
 
-**Эндпоинт:** `GET /booking`
+**Эндпоинт:** `GET /booking`\
 **Связанные тест-кейсы:** `BOOKING-6`
 
 ### Описание
@@ -57,7 +57,7 @@
 <a name="booking-13-bug"></a>
 ## BOOKING-13-BUG — Ответ `500 Internal Server Error` при создании данных бронирования с неполными данными
 
-**Эндпоинт:** `POST /booking`
+**Эндпоинт:** `POST /booking`\
 **Связанные тест-кейсы:** `BOOKING-13`
 
 ### Описание
@@ -80,7 +80,7 @@
 <a name="booking-14-bug"></a>
 ## BOOKING-14-BUG — Ответ `200 OK` при создании данных бронирования с логически неверными параметрами `checkin` и `checkout`.
 
-**Эндпоинты:** `POST /booking`, `PUT /booking{id}`, `PATCH /booking{id}`
+**Эндпоинты:** `POST /booking`, `PUT /booking{id}`, `PATCH /booking{id}`\
 **Связанные тест-кейсы:** `BOOKING-14`, `BOOKING-22`, `BOOKING-14`, `BOOKING-28`
 
 ### Описание
@@ -105,7 +105,7 @@
 <a name="booking-20-bug"></a>
 ## BOOKING-20-BUG — Неверный код ответа `405 Method Not Allowed` при обновлении или удалении данных бронирования несуществующего идентификатора
 
-**Эндпоинты:** `PUT /booking{id}`, `PATCH /booking{id}`, `DELETE /booking{id}`
+**Эндпоинты:** `PUT /booking{id}`, `PATCH /booking{id}`, `DELETE /booking{id}`\
 **Связанные тест-кейсы:** `BOOKING-20`, `BOOKING-26`, `BOOKING-31`
 
 ### Описание
@@ -130,7 +130,7 @@
 <a name="booking-30-bug"></a>
 ## BOOKING-30-BUG — Неверный код ответа `201 Created` при удалении данных бронирования
 
-**Эндпоинт:** `DELETE /booking{id}`
+**Эндпоинт:** `DELETE /booking{id}`\
 **Связанные тест-кейсы:** `BOOKING-29`
 
 ### Описание
@@ -153,7 +153,7 @@
 <a name="booking-33-bug"></a>
 ## BOOKING-33-BUG — Фильтр данных бронирования по параметру `checkin` не возвращает созданный объект данных
 
-**Эндпоинт:** `GET /booking`
+**Эндпоинт:** `GET /booking`\
 **Связанные тест-кейсы:** `BOOKING-32`
 
 ### Описание
@@ -181,7 +181,7 @@
 <a name="booking-34-1-bug"></a>
 ## BOOKING-34-1-BUG — Ответ `500 Internal Server Error` при передаче числа в поле `firstname` или `lastname`.
 
-**Эндпоинты:** `POST /booking`, `PATCH /booking{id}`
+**Эндпоинты:** `POST /booking`, `PATCH /booking{id}`\
 **Связанные тест-кейсы:** `BOOKING-33`, `BOOKING-34`
 
 ### Описание
@@ -212,7 +212,7 @@
 <a name="booking-34-2-bug"></a>
 ## BOOKING-34-2-BUG — Отсутствует валидация тела запроса при создании или обновлении данных бронирования
 
-**Эндпоинты:** `POST /booking`, `PUT /booking/{id}`, `PATCH /booking/{id}`
+**Эндпоинты:** `POST /booking`, `PUT /booking/{id}`, `PATCH /booking/{id}`\
 **Связанные тест-кейсы:** `BOOKING-33`, `BOOKING-34`, `BOOKING-35`
 
 ### Описание
