@@ -78,7 +78,7 @@
 ---
 
 <a name="booking-14-bug"></a>
-## BOOKING-14-BUG — Ответ `200 OK` при создании данных бронирования с логически неверными параметрами `checkin` и `checkout`.
+## BOOKING-14-BUG — Ответ `200 OK` при создании данных бронирования с логически неверными параметрами `checkin` и `checkout`
 
 **Эндпоинты:** `POST /booking`, `PUT /booking{id}`, `PATCH /booking{id}`\
 **Связанные тест-кейсы:** `BOOKING-14`, `BOOKING-22`, `BOOKING-14`, `BOOKING-28`
